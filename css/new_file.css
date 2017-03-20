@@ -1,0 +1,55 @@
+.ui-topic {
+	width: 464px;
+}
+
+.ui-topic .ui-topic__item {
+	float: left;
+	_display: inline;
+	margin: 2px 2px 0px 0px;
+	width: 80px;
+	height: 32px;
+	text-decoration: none;
+	position: relative;
+	overflow: hidden
+}
+
+.ui-topic .ui-topic__item img {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.ui-topic .ui-topic__item span {
+	position: absolute;
+	display: block;
+	text-align: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #e5e5e5;
+	font-size: 14px;
+	line-height: 32px
+}
+
+.ui-topic .ui-topic__item:hover {
+	text-decoration: none;
+	color: #333
+}
+
+.ui-topic .ui-topic__item.is-active {
+	width: 132px;
+	height: 66px
+}
+
+.ui-topic .ui-topic__item.is-active img {
+	display: block
+}
+
+.ui-topic .ui-topic__item.is-active span {
+	display: none
+}
+
+.g-narrow .g-response .ui-topic {
+	height: 58px
+}
